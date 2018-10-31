@@ -6,6 +6,7 @@ import string
 import math
 
 #expomod function
+#implements (hopefully) memory-saving (a**b)%n
 def expomod(a, b, n):
     sol = a
     #b-1 multiplications, just as a^2 is one multiplication
