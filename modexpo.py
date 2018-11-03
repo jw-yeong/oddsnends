@@ -17,6 +17,7 @@ print ("Solving for", a, "^", b, "(mod", m, ")")
 
 solution = a
 for i in range (b+1):
+    print ("i:", i)
     solution=(solution**a)%m
 print ("sol", solution)
 

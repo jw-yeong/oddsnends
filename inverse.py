@@ -21,10 +21,10 @@ print ("Type g:")
 g = int(input())
 print ("Type modulus m:")
 m = int(input())
-print ("Solving for", g, "^ -1 (mod", p, ")")
+print ("Solving for", g, "^ -1 (mod", m, ")")
 
 #compute n
-solution = inverse(g, p)
+solution = inverse(g, m)
 print ("sol:", solution)
 
 
